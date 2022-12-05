@@ -1,5 +1,6 @@
 .danh-sach-san-pham {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400PX, 1fr));
-    gap: 20px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
 }
