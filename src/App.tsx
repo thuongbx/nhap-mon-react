@@ -1,11 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
+import DanhSachSanPham from './components/danh-sach-san-pham/DanhSachSanPham'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <>
+    <Header/>
     <div className="App">
       <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -28,6 +32,9 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
+    <DanhSachSanPham/>
+    <Footer/>
+    </>
   )
 }
 
