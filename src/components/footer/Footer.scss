@@ -1,6 +1,19 @@
-footer {
+.footer {
   margin-top: 60px;
-  color: orange;
+  color: red;
   height: 100px;
-  background-color: #ffdead;
+  background-color: #e0ffff;
+  border-top: 1px solid #ccc;
+
+  &__container {
+    margin: 20px auto;
+    width: min(80%, 1200px);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__title {
+    font-size: 24px;
+  }
 }
