@@ -50,7 +50,7 @@ jobs:
         shell: bash
 
       - name: Build
-        run: npm run build
+        run: npm run buildGitHubPage
         shell: bash
 
       - name: Deploy to GitHub Pages 🚀

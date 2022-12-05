@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "buildGitHubPage": "tsc && vite build --base=/nhap-mon-react",
     "preview": "vite preview"
   },
   "dependencies": {
