@@ -1,5 +1,5 @@
 import "./Footer.scss";
-import logo from "../../assets/vite.svg";
+import logo from "@assets/vite.svg";
 
 const Footer = () => {
   return (

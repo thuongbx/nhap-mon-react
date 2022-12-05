@@ -1,5 +1,5 @@
 import "./Header.scss";
-import logo from "../../assets/vite.svg";
+import logo from "@assets/vite.svg";
 
 const Header = () => {
   return (
