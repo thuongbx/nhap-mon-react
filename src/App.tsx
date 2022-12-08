@@ -8,18 +8,21 @@ import GioHang from "./components/GioHang/GioHang";
 
 function App() {
   const [count, setCount] = useState(0);
-  const [gioHang,setGioHang]=useState<string[]>([]);
+  const [gioHang, setGioHang] = useState<string[]>([]);
+  const [yeuThich, setYeuThich] = useState<string[]>([]);
 
-  const gioHangData:GioHangType={
+  const gioHangData: GioHangType = {
     gioHang,
-    setGioHang
-  }
+    yeuThich,
+    setGioHang,
+    setYeuThich,
+  };
 
   return (
     <GioHangContext.Provider value={gioHangData}>
       <Header />
       <main>
-        <GioHang/>
+        <GioHang />
         <DanhSachSanPham />
       </main>
       <Footer />
