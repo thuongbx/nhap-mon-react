@@ -11,39 +11,6 @@ const DanhSachSanPham = () => {
       <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
       <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
       <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Giay Nike" gia="$200" anh={anh1} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
-      <TheSanPham ten="Hoa qua" gia="$200" anh={hoaQua} />
-      <TheSanPham ten="Nuoc hoa" gia="$100" anh={anh2} />
     </div>
   );
 };
