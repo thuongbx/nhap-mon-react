@@ -4,12 +4,15 @@ import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import DanhSachSanPham from "./components/danh-sach-san-pham/DanhSachSanPham";
 import { GioHang as GioHangType, GioHangContext } from "./gioHangContext";
-import GioHang from "./components/GioHang/GioHang";
+import GioHang from "./components/gioHang/GioHang";
+import GiaDinh from "./components/giaDinh/GiaDinh";
+import TangSo from "./components/tangSo/TangSo";
 
 function App() {
   const [count, setCount] = useState(0);
   const [gioHang, setGioHang] = useState<string[]>([]);
   const [yeuThich, setYeuThich] = useState<string[]>([]);
+  const [counter, setCounter] = useState(1);
 
   const gioHangData: GioHangType = {
     gioHang,
@@ -24,6 +27,8 @@ function App() {
       <main>
         <GioHang />
         <DanhSachSanPham />
+        <GiaDinh/>
+        <TangSo/>
       </main>
       <Footer />
     </GioHangContext.Provider>
