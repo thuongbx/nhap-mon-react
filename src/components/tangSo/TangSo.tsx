@@ -8,7 +8,7 @@ const TangSo = () => {
     return (
         <div className="App" style={{padding: 20}}>
             <h1>{counter}</h1>
-            <button onClick={hamTangSo}>Click</button>
+            <button onClick={hamTangSo} style={{fontSize: 32}}>Click</button>
         </div>
     )
 }
